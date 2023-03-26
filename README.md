@@ -66,7 +66,9 @@ This module allows users to view their previous health data and predictions. Use
 
 This module enables users to use the application in their comfortable language.
 
-### 7. Settings: This module allows users to customize the application's settings, such as the language, notification preferences, and user profile. Users can also log out of the application from this module.
+### 7. Settings: 
+
+This module allows users to customize the application's settings, such as the language, notification preferences, and user profile. Users can also log out of the application from this module.
 
 ### 8. Contact Medical Professionals: 
 
@@ -78,6 +80,9 @@ This module provides users with helpful tips on how to maintain a healthy lifest
 
 # Demo-Preview
 
+https://user-images.githubusercontent.com/65682028/227759473-7e617754-ecd2-4fd8-acdd-c84c24b65cab.mp4
+
+
 
 
 # Table of contents
@@ -88,7 +93,6 @@ Here is the TOC this project.
 - [Table of contents](#table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Development](#development)
 - [Contribute](#contribute)
     - [Sponsor](#sponsor)
     - [Adding new features or fixing bugs](#adding-new-features-or-fixing-bugs)
@@ -97,7 +101,15 @@ Here is the TOC this project.
 # Implementation
 [(Back to top)](#table-of-contents)
 
-### Coming Soon!
+We have trained a machine learning model that is deployed in Firebase to make predictions on new data in real-time. The Flutter mobile application serves as the user interface for the Heart Stroke detection system, alerting users of possible strokes based on the results of the machine learning model. 
+
+### Technologies used:
+- TensorFlow
+- Flutter 
+- Firebase
+- Twilio
+- Google Fit API
+- Mi Band 4 (Hardware)
 
 # Usage
 [(Back to top)](#table-of-contents)
@@ -131,11 +143,6 @@ flutter pub get
 ```sh
 flutter run
 ```
-
-# Development
-[(Back to top)](#table-of-contents)
-
-### Coming soon
 
 # Contribute
 [(Back to top)](#table-of-contents)
